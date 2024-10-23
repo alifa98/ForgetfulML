@@ -1,5 +1,9 @@
 # ForgetfulML
 
+> ⚠️ Warning
+> This Library is under development.
+
+
 **ForgetfulML** is a cutting-edge machine unlearning framework designed to enable AI models to selectively forget previously learned data. This functionality is crucial for ensuring compliance with privacy regulations, improving model adaptability, and maintaining ethical standards in machine learning. ForgetfulML simplifies the process of unlearning, offering a seamless integration with existing ML workflows.
 
 ## Key Features
@@ -19,9 +23,6 @@ pip install unlearning
 ```
 
 ## Quick Start
-
-> ⚠️ Warning
-> This Library is under development.
 
 Here's how you can quickly start using **ForgetfulML** in your project:
 
@@ -54,6 +55,7 @@ save_model(model)  # Replace with your model saving function
 ## Documentation
 
 ⚠️ Under development
+[Wiki Website](https://github.com/alifa98/ForgetfulML/wiki)
 
 ## Contributing
 
