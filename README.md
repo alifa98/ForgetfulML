@@ -62,3 +62,34 @@ We welcome contributions! If you'd like to help improve ForgetfulML, feel free t
 ## Support
 
 For questions or issues, feel free to reach out by opening a GitHub issue or contact us at unlearning@faraji.info
+
+
+# Development
+
+## Build
+
+Install build dependencies:
+
+```bash
+pip install build
+```
+
+Build the package:
+
+```bash
+python -m build
+```
+
+## Test
+
+Install test dependencies (tests/requirements.txt):
+
+```bash
+pip install -r tests/requirements.txt
+```
+
+Run the tests:
+
+```bash
+pytest
+```
