@@ -9,7 +9,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}
 authors = [
-    { name = "Ali Faraji", email = "ali@faraji.info" }
+    { name = "Ali Faraji", email = "unlearning@faraji.info" }
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
