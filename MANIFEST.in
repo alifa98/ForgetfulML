@@ -1,0 +1,5 @@
+# Exclude tests folder and any .gitignore and other unwanted files
+exclude .gitignore
+exclude tests/*
+exclude *.log
+exclude .env
