@@ -20,6 +20,8 @@ dependencies = [
     "torch>=1.7.0",
 ]
 
+dynamic = ["version"]
+
 [project.urls]
 "Homepage" = "https://github.com/alifa98/ForgetfulML/"
 "Documentation" = "https://github.com/alifa98/ForgetfulML/wiki"
@@ -31,5 +33,3 @@ where = ["forgetful_ml"]
 [tool.setuptools_scm]
 version_scheme = "post-release"
 local_scheme = "node-and-date"
-
-[tool.setuptools]
