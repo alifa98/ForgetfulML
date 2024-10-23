@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forgetful-ml"
+description = "A cutting-edge unlearning framework that enables AI models to selectively forget learned data, ensuring compliance, privacy, and adaptability."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    { name = "Ali Faraji", email = "ali@faraji.info" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "torch>=1.7.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/alifa98/ForgetfulML/"
+"Documentation" = "https://github.com/alifa98/ForgetfulML/wiki"
+"Source" = "https://github.com/alifa98/ForgetfulML/"
+
+[tool.setuptools.packages.find]
+where = ["forgetful_ml"]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "node-and-date"
+
+[tool.setuptools]
