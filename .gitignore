@@ -1,0 +1,75 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info
+.eggs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+# Conda environment
+.conda/
+.condarc
+*.conda
+*.env
+*.venv
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.wheel
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# C extensions
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.spec
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Environments
+*.env
+.env/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# macOS-specific files
+.DS_Store
+
+# GitHub workflow and dependency lock files
+# if using poetry or similar tools for dependency management
+poetry.lock
+Pipfile.lock
