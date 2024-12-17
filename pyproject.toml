@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "forgetful-ml"
-description = "A cutting-edge unlearning framework that enables AI models to selectively forget learned data, ensuring compliance, privacy, and adaptability."
+description = "An unlearning framework that enables AI models to selectively forget learned data, ensuring compliance, privacy, and adaptability."
 readme = "README.md"
 requires-python = ">=3.8"
 license = {file = "LICENSE"}

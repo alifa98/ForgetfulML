@@ -3,8 +3,7 @@
 > ⚠️ Warning
 > This Library is under development.
 
-
-**ForgetfulML** is a cutting-edge machine unlearning framework designed to enable AI models to selectively forget previously learned data. This functionality is crucial for ensuring compliance with privacy regulations, improving model adaptability, and maintaining ethical standards in machine learning. ForgetfulML simplifies the process of unlearning, offering a seamless integration with existing ML workflows.
+**ForgetfulML** is a machine unlearning framework designed to enable AI models to selectively forget previously learned data. This functionality is crucial for ensuring compliance with privacy regulations, improving model adaptability, and maintaining ethical standards in machine learning. ForgetfulML simplifies the process of unlearning, offering a seamless integration with existing ML workflows.
 
 ## Key Features
 
@@ -27,23 +26,7 @@ pip install unlearning
 Here's how you can quickly start using **ForgetfulML** in your project:
 
 ```python
-# Import the Unlearning module
-from unlearning import ClassForgetter
-
-# Initialize the Forgetter
-forgetter = ClassForgetter()
-
-# Load your pre-trained machine learning model
-model = load_your_model()  # Replace with your model loading function
-
-# Define the data you want the model to forget
-data_to_forget = get_data_to_forget()  # Replace with your data extraction
-
-# Unlearn the specified data
-forgetter.unlearn(model, data_to_forget)
-
-# Continue using your updated model
-save_model(model)  # Replace with your model saving function
+# comming soon
 ```
 
 ## Use Cases
@@ -63,12 +46,9 @@ We welcome contributions! If you'd like to help improve ForgetfulML, feel free t
 
 ## Support
 
-For questions or issues, feel free to reach out by opening a GitHub issue or contact us at unlearning@faraji.info
+For questions or issues, feel free to reach out by opening a GitHub issue or contact us at <unlearning@faraji.info>
 
-
-# Development
-
-## Build
+## Development: Build
 
 Install build dependencies:
 
@@ -82,7 +62,7 @@ Build the package:
 python -m build
 ```
 
-## Test
+## Development: Run Tests
 
 Install test dependencies (tests/requirements.txt):
 
