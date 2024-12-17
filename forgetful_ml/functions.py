@@ -8,6 +8,11 @@ def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
     The score compares the average intra-group variance within each set (retain and forget)
     to the variance between their means and the combined mean, providing a measure 
     of how distinct or separable these two groups are.
+    
+    Reference
+    ---------
+    Zhao, Kairan, et al. "What makes unlearning hard and what to do about it." 
+    arXiv preprint arXiv:2406.01257 (2024).
 
     Parameters
     ----------
