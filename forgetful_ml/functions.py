@@ -54,9 +54,3 @@ def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
 
     es_value = numerator / denominator
     return float(es_value)
-
-
-r = np.array([[4.0, 2.0], [0.0, 2.0]])
-f = np.array([[10.0, 15.0], [6.0, 1.0]])
-    
-print(engagement_score(r, f))
