@@ -3,7 +3,7 @@ import numpy as np
 def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
     """
     Compute the "engagement score" between a retain set and a forget set, both 
-    being collections of d-dimensional observations.
+    being collections of d-dimensional embeddings.
 
     The score compares the average intra-group variance within each set (retain and forget)
     to the variance between their means and the combined mean, providing a measure 
@@ -12,10 +12,10 @@ def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
     Parameters
     ----------
     r : np.ndarray
-        A numpy array of shape (n, d), representing the retain set with n observations 
+        A numpy array of shape (n, d), representing the retain set with n embeddings 
         each of dimension d.
     f : np.ndarray
-        A numpy array of shape (m, d), representing the forget set with m observations 
+        A numpy array of shape (m, d), representing the forget set with m embeddings 
         each of dimension d.
 
     Returns
