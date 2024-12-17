@@ -1,8 +1,8 @@
 import numpy as np
 
-def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
+def entanglement_score(r: np.ndarray, f: np.ndarray) -> float:
     """
-    Compute the "engagement score" between a retain set and a forget set, both 
+    Compute the "entanglement score" between a retain set and a forget set, both 
     being collections of d-dimensional embeddings.
 
     The score compares the average intra-group variance within each set (retain and forget)
@@ -26,7 +26,7 @@ def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
     Returns
     -------
     float
-        The engagement score, a non-negative number that reflects the relationship
+        The entanglement score, a non-negative number that reflects the relationship
         between intra-group variance and inter-group variance.
 
     Raises
@@ -55,7 +55,7 @@ def engagement_score(r: np.ndarray, f: np.ndarray) -> float:
     denominator = 0.5 * (np.sum(diff_mu_r**2) + np.sum(diff_mu_f**2))
 
     if denominator == 0:
-        raise ValueError("Denominator is zero, cannot compute engagement score.")
+        raise ValueError("Denominator is zero, cannot compute entanglement score.")
 
     es_value = numerator / denominator
     return float(es_value)

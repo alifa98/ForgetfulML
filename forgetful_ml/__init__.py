@@ -1,3 +1,3 @@
-from forgetful_ml.functions import engagement_score
+from forgetful_ml.functions import entanglement_score
 
-__all__ = ["engagement_score"]
+__all__ = ["entanglement_score"]
